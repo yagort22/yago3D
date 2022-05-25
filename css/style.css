@@ -1,0 +1,146 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Akshar', sans-serif;
+	
+}
+
+ul{
+	list-style: none;
+	padding-left: 30px;
+	color: skyblue;
+	animation: change 8s infinite;
+}
+
+ul,p{
+	margin: 0;
+}
+
+h1{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 70px;
+}
+
+h3{
+	padding-left: 70px;
+	font-size: 35px;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: skyblue;
+}
+
+.inicio{
+	padding-left: 900px;
+}
+
+@keyframes change{
+	0%{margin-top: 0;}
+	7%{margin-top: 0;}
+	14%{margin-top: -40px;}
+	24%{margin-top: -40px;}
+	31%{margin-top: -80px;}
+	41%{margin-top: -80px;}
+	48%{margin-top: -120px;}
+	58%{margin-top: -120px;}
+	65%{margin-top: -80px;}
+	75%{margin-top: -80px;}
+	82%{margin-top: -40px;}
+	92%{margin-top: -40px;}
+
+}
+
+.contenedor{
+	display: flex;
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	overflow: hidden;
+	border: solid white 5px;
+	border-radius: 20px;
+	padding-left: 80px;
+	margin-left: 750px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	background-color: black;
+
+}
+
+.foto{
+	padding-left: 730px;
+}
+
+
+.menu{
+	display: flex;
+	padding-left: 660px;
+}
+
+.proyectos{
+	padding-left: 820px;
+}
+
+.sobremi{
+	padding-left: 830px;
+}
+
+.contacto{
+	padding-left: 830px;
+}
+
+.yo{
+	display: flex;
+	padding-left: 200px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 250px;
+}
+
+.imagenes{
+	display: flex;
+	padding-left:150px;
+}
+
+.imagenes2{
+	display: flex;
+	padding-left:300px;
+}
+
+.programas{
+	display: flex;
+	padding-left: 260px;
+}
+
+.lista{
+	padding-left: 260px;
+	margin: 0px;
+}
+
+.idioma{
+	padding-left: 260px;
+}
+
+.idiomas{
+	padding-left: 260px;
+	margin: 0px;
+}
+
+.contexto{
+	display: flex;
+}
+
+.ft1{
+	margin: 20px 20px 20px 90px;
+}
+
+
